@@ -1,1 +1,1 @@
-worker: python follow.py  
+worker: python like.py  
