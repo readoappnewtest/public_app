@@ -8,6 +8,7 @@ json_js = json.loads(json_data)
 n = 1
 bot_url = "https://api.telegram.org/bot1568020230:AAFh3PNDg7_WbbjGh_toZSv8sqXfn6n_VVs/sendMessage?chat_id=-527297699&text=Complete "+str(n)+"data update  at"+str(time.time())+""
 bot_data = requests.get(bot_url,headers={"User-Agent":"Nasa"})
+
 for api in json_js:
     print(api['id'])
     try:
