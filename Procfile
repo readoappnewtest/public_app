@@ -1,1 +1,1 @@
-worker: python like.py  
+worker: python like_main.py  
