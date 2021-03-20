@@ -2,7 +2,7 @@ import requests
 import json
 import time
 #for aryan
-file = open('test_data.txt','r',encoding="utf-8")
+file = open('test_data_2.txt','r',encoding="utf-8")
 json_data = file.read()
 json_js = json.loads(json_data)
 n = 1
