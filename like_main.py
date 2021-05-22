@@ -63,7 +63,7 @@ for api in json_js:
         #body= '{"message":"Hiaryanj","receiver_id":"u8CU5TC9eBeongBvULTmFSlw4cY2"}'
         #body = '{"message":"Hi, hwo are you","receiver_id":"r8Xmgyr9p8RJDuulGTT5Aaxuln02"}'
         #body = '{"like_ids":["sp_cei4asxjw3ybl"],"unlike_ids":[]}'
-        body = '{"like_ids":["sp_fxaf224tl6fme"],"unlike_ids":[]}'
+        body = '{"like_ids":["sp_xwhns3283if1t"],"unlike_ids":[]}'
 
         data = requests.post(url,headers=header,data=body)
         print(data)
